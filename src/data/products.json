@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 89.99,
+      "image": "https://via.placeholder.com/150",
+      "description": "High-quality wireless headphones with noise cancellation"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 199.99,
+      "image": "https://via.placeholder.com/150",
+      "description": "Fitness tracking smartwatch with heart rate monitor"
+    },
+    {
+      "id": 3,
+      "name": "Cotton T-Shirt",
+      "category": "Clothing",
+      "price": 19.99,
+      "image": "https://via.placeholder.com/150",
+      "description": "Comfortable cotton t-shirt, available in multiple colors"
+    },
+    {
+      "id": 4,
+      "name": "Coffee Maker",
+      "category": "Home",
+      "price": 49.99,
+      "image": "https://via.placeholder.com/150",
+      "description": "Programmable coffee maker with timer"
+    },
+    {
+      "id": 5,
+      "name": "Yoga Mat",
+      "category": "Fitness",
+      "price": 29.99,
+      "image": "https://via.placeholder.com/150",
+      "description": "Non-slip yoga mat, ideal for home workouts"
+    }
+  ]
