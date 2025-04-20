@@ -4,7 +4,6 @@ import ProductCard from '../components/ProductCard';
 import SearchBar from '../components/SearchBar';
 import Header from '../layout/Header';
 import Footer from '../layout/Footer';
-import products from '../data/products.json';
 import './HomePage.css';
 
 import headphone from '../assets/images/headphone.jpg';
@@ -22,24 +21,25 @@ import tab from '../assets/images/tab.jpg';
 import yoga from '../assets/images/yogamat.jpg';
 import smart from '../assets/images/smart.jpg';
 import pan from '../assets/images/cookingpan.jpg';
-import vaccum from '../assets/images/vaccum.jpg'
-
+import vaccum from '../assets/images/vaccum.jpg';
 
 function HomePage() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [featuredProducts, setFeaturedProducts] = useState([]);
 
-  const imageArray = [headphone, laptop, watch, camera, chair, securitecam, coffeemaker, charging, speaker, oil, led, tab, yoga, smart, pan, vaccum]; // 🖼️ Add all your images here
+  const imageArray = [
+    headphone, laptop, watch, camera, chair, securitecam, coffeemaker,
+    charging, speaker, oil, led, tab, yoga, smart, pan, vaccum
+  ];
 
   useEffect(() => {
     const fetchProducts = async () => {
       const data = await getProducts();
 
-      // 🖼️ Assign a unique image to each product based on index
       const dataWithImages = data.map((product, index) => ({
         ...product,
-        images: [imageArray[index % imageArray.length]] // loops through images
+        images: [imageArray[index % imageArray.length]]
       }));
 
       setProducts(dataWithImages);
@@ -50,7 +50,7 @@ function HomePage() {
       setLoading(false);
     };
     fetchProducts();
-  }, []);
+  }, [imageArray]); // ✅ Add imageArray to dependency array
 
   const handleSearch = async (query) => {
     setLoading(true);

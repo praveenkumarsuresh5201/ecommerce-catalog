@@ -45,10 +45,10 @@ function Footer() {
             <button type="submit">Subscribe</button>
           </form>
           <div className="social-icons">
-            <a href="#"><i className="fa fa-facebook"></i></a>
-            <a href="#"><i className="fa fa-twitter"></i></a>
-            <a href="#"><i className="fa fa-instagram"></i></a>
-            <a href="#"><i className="fa fa-pinterest"></i></a>
+            <a href="https://facebook.com" aria-label="Facebook"><i className="fa fa-facebook"></i></a>
+            <a href="https://twitter.com" aria-label="Twitter"><i className="fa fa-twitter"></i></a>
+            <a href="https://instagram.com" aria-label="Instagram"><i className="fa fa-instagram"></i></a>
+            <a href="https://pinterest.com" aria-label="Pinterest"><i className="fa fa-pinterest"></i></a>
           </div>
         </div>
       </div>

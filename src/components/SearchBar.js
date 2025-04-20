@@ -12,16 +12,16 @@ function SearchBar({ onSearch }) {
   };
 
   return (
-    <form className="search-bar" onSubmit={handleSubmit} role="form">
-  <input
-    type="text"
-    className="search-input"
-    placeholder="Search products..."
-    value={query}
-    onChange={(e) => setQuery(e.target.value)}
-  />
-  <button type="submit" className="search-button">Search</button>
-</form>
+    <form className="search-bar" onSubmit={handleSubmit} data-testid="search-form">
+      <input
+        type="text"
+        className="search-input"
+        placeholder="Search products..."
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+      />
+      <button type="submit" className="search-button">Search</button>
+    </form>
   );
 }
 
