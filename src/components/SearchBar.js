@@ -1,23 +1,28 @@
 import React, { useState } from 'react';
+import './SearchBar.css';
 
 function SearchBar({ onSearch }) {
   const [query, setQuery] = useState('');
 
-  const handleSearch = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    onSearch(query);
+    if (query.trim()) {
+      onSearch(query);
+    }
   };
 
   return (
-    <form className="search-bar" onSubmit={handleSearch} data-testid="search-form">
+    <form className="search-bar" onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Search products..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        data-testid="search-input"
+        className="search-input"
       />
-      <button type="submit" data-testid="search-button">Search</button>
+      <button type="submit" className="search-button">
+        Search
+      </button>
     </form>
   );
 }

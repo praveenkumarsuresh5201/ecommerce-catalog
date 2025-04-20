@@ -1,42 +1,666 @@
-[
+{
+  "products": [
     {
-      "id": 1,
-      "name": "Wireless Headphones",
-      "category": "Electronics",
-      "price": 89.99,
-      "image": "https://via.placeholder.com/150",
-      "description": "High-quality wireless headphones with noise cancellation"
+      "id": "p001",
+      "name": "Premium Wireless Headphones",
+      "description": "Experience crystal-clear audio with our premium wireless headphones. Featuring active noise cancellation, 30-hour battery life, and ultra-comfortable memory foam ear cushions.",
+      "price": 249.99,
+      "compareAtPrice": 299.99,
+      "currency": "USD",
+      "sku": "WH-PRO-BLK",
+      "categories": ["Electronics", "Audio", "Headphones"],
+      "tags": ["wireless", "bluetooth", "noise-cancellation", "premium"],
+      "brand": "SoundMaster",
+      "rating": 4.8,
+      "reviewCount": 246,
+      "stock": 35,
+      "images": [
+        "'../assets/images/headphone.jpg'"
+      ],
+      "colors": ["Black", "Silver", "Navy"],
+      "features": [
+        "Active Noise Cancellation",
+        "30-hour battery life",
+        "Bluetooth 5.2",
+        "Memory foam ear cushions",
+        "Voice assistant compatible",
+        "Foldable design"
+      ],
+      "specifications": {
+        "weight": "280g",
+        "connectivity": "Bluetooth 5.2, 3.5mm jack",
+        "batteryLife": "30 hours (ANC on), 40 hours (ANC off)",
+        "chargingTime": "2 hours",
+        "driver": "40mm dynamic"
+      },
+      "inStock": true,
+      "isNew": true,
+      "isFeatured": true,
+      "createdAt": "2024-09-12T08:45:23Z",
+      "updatedAt": "2024-10-05T14:20:11Z"
     },
     {
-      "id": 2,
-      "name": "Smart Watch",
-      "category": "Electronics",
+      "id": "p002",
+      "name": "Ultra-Slim Laptop",
+      "description": "Powerful computing in an ultra-slim package. This laptop features a stunning 4K display, the latest processor, and all-day battery life in a design that's just 14mm thin.",
+      "price": 1299.99,
+      "compareAtPrice": 1499.99,
+      "currency": "USD",
+      "sku": "LT-ULT-SLV",
+      "categories": ["Electronics", "Computers", "Laptops"],
+      "tags": ["ultrabook", "lightweight", "business", "student"],
+      "brand": "TechPro",
+      "rating": 4.7,
+      "reviewCount": 189,
+      "stock": 18,
+      "images": [
+        "'../assets/images/3.jpg'"
+      ],
+      "colors": ["Silver", "Space Gray"],
+      "features": [
+        "14-inch 4K Ultra HD Display",
+        "Latest Gen Processor",
+        "16GB RAM",
+        "512GB SSD",
+        "12-hour battery life",
+        "Backlit keyboard"
+      ],
+      "specifications": {
+        "processor": "Intel Core i7-1260P",
+        "memory": "16GB LPDDR5",
+        "storage": "512GB NVMe SSD",
+        "display": "14-inch 4K Ultra HD (3840x2160)",
+        "graphics": "Intel Iris Xe Graphics",
+        "battery": "65Wh",
+        "weight": "1.2kg",
+        "thickness": "14mm"
+      },
+      "inStock": true,
+      "isNew": true,
+      "isFeatured": true,
+      "createdAt": "2024-08-15T10:32:18Z",
+      "updatedAt": "2024-10-10T09:15:42Z"
+    },
+    {
+      "id": "p003",
+      "name": "Smart Fitness Watch",
+      "description": "Track your fitness goals with precision. This smart fitness watch monitors heart rate, sleep quality, and 20+ exercise modes, while keeping you connected with notifications and calls.",
+      "price": 179.99,
+      "compareAtPrice": 199.99,
+      "currency": "USD",
+      "sku": "SW-FIT-BLK",
+      "categories": ["Electronics", "Wearables", "Fitness"],
+      "tags": ["smartwatch", "fitness", "heart-rate", "gps"],
+      "brand": "FitTech",
+      "rating": 4.6,
+      "reviewCount": 312,
+      "stock": 67,
+      "images": [
+        "'../assets/images/1.jpg'"
+      ],
+      "colors": ["Black", "Blue", "Pink", "Green"],
+      "features": [
+        "24/7 Heart Rate Monitoring",
+        "Sleep Tracking",
+        "20+ Exercise Modes",
+        "GPS Tracking",
+        "5 ATM Water Resistance",
+        "7-day Battery Life"
+      ],
+      "specifications": {
+        "display": "1.4-inch AMOLED",
+        "sensors": "Heart rate, accelerometer, gyroscope, GPS",
+        "batteryLife": "7 days (typical use)",
+        "waterResistance": "5 ATM",
+        "compatibility": "iOS 12.0+, Android 7.0+"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isFeatured": true,
+      "createdAt": "2024-07-28T15:20:36Z",
+      "updatedAt": "2024-10-08T11:45:22Z"
+    },
+    {
+      "id": "p004",
+      "name": "Professional DSLR Camera",
+      "description": "Capture stunning photos and videos with this professional DSLR camera. Featuring a 45MP full-frame sensor, 4K video recording, and weather-sealed construction for any shooting environment.",
+      "price": 2499.99,
+      "compareAtPrice": 2799.99,
+      "currency": "USD",
+      "sku": "CM-PRO-BLK",
+      "categories": ["Electronics", "Cameras", "Photography"],
+      "tags": ["dslr", "professional", "full-frame", "4k-video"],
+      "brand": "OptiMax",
+      "rating": 4.9,
+      "reviewCount": 156,
+      "stock": 12,
+      "images": [
+        "/images/products/camera-front.jpg",
+        "/images/products/camera-top.jpg",
+        "/images/products/camera-back.jpg"
+      ],
+      "colors": ["Black"],
+      "features": [
+        "45MP Full-Frame Sensor",
+        "4K/60fps Video Recording",
+        "In-body Image Stabilization",
+        "Weather-sealed Construction",
+        "Dual SD Card Slots",
+        "3.2-inch Vari-angle Touchscreen"
+      ],
+      "specifications": {
+        "sensor": "45MP Full-Frame CMOS",
+        "processor": "DIGIC X",
+        "iso": "100-51,200 (expandable to 102,400)",
+        "autofocus": "61-point high-density reticular AF",
+        "videoResolution": "4K/60fps, 1080p/120fps",
+        "batteryLife": "Approx. 800 shots (CIPA)"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isFeatured": true,
+      "createdAt": "2024-06-05T09:12:45Z",
+      "updatedAt": "2024-10-12T16:30:18Z"
+    },
+    {
+      "id": "p005",
+      "name": "Ergonomic Office Chair",
+      "description": "Work in comfort with this premium ergonomic office chair. Features include adjustable lumbar support, breathable mesh back, customizable armrests, and smooth-rolling casters.",
+      "price": 349.99,
+      "compareAtPrice": 399.99,
+      "currency": "USD",
+      "sku": "FN-CHR-BLK",
+      "categories": ["Furniture", "Office", "Chairs"],
+      "tags": ["ergonomic", "office", "lumbar-support", "adjustable"],
+      "brand": "ErgoComfort",
+      "rating": 4.7,
+      "reviewCount": 287,
+      "stock": 28,
+      "images": [
+        "/images/products/chair-front.jpg",
+        "/images/products/chair-side.jpg",
+        "/images/products/chair-back.jpg"
+      ],
+      "colors": ["Black", "Gray", "Blue"],
+      "features": [
+        "Adjustable Lumbar Support",
+        "Breathable Mesh Back",
+        "3D Adjustable Armrests",
+        "Seat Height Adjustment",
+        "Tilt Tension Control",
+        "360° Swivel"
+      ],
+      "specifications": {
+        "maxWeight": "300 lbs",
+        "seatHeight": "17-21 inches (adjustable)",
+        "material": "Mesh back, cushioned seat",
+        "base": "5-star aluminum base with casters",
+        "warranty": "5-year manufacturer warranty"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isFeatured": false,
+      "createdAt": "2024-08-20T11:25:36Z",
+      "updatedAt": "2024-10-09T14:50:22Z"
+    },
+    {
+      "id": "p006",
+      "name": "Smart Home Security System",
+      "description": "Protect your home with this comprehensive smart security system. Includes a base station, 4 door/window sensors, 2 motion detectors, and a keypad with cellular backup.",
+      "price": 299.99,
+      "compareAtPrice": 349.99,
+      "currency": "USD",
+      "sku": "SH-SEC-KIT",
+      "categories": ["Smart Home", "Security", "Electronics"],
+      "tags": ["security", "smart-home", "wireless", "diy"],
+      "brand": "SafeGuard",
+      "rating": 4.8,
+      "reviewCount": 203,
+      "stock": 34,
+      "images": [
+        "/images/products/security-kit.jpg",
+        "/images/products/security-sensor.jpg",
+        "/images/products/security-keypad.jpg"
+      ],
+      "colors": ["White"],
+      "features": [
+        "DIY Installation",
+        "24/7 Professional Monitoring (optional)",
+        "Mobile App Control",
+        "Cellular Backup",
+        "Battery Backup",
+        "Works with Alexa and Google Assistant"
+      ],
+      "specifications": {
+        "connectivity": "Wi-Fi, Cellular backup",
+        "powerSource": "Wall outlet with 24-hour battery backup",
+        "sensorRange": "Up to 1000 ft from base station",
+        "compatibleWith": "Alexa, Google Assistant, HomeKit",
+        "appSupport": "iOS 12.0+, Android 7.0+"
+      },
+      "inStock": true,
+      "isNew": true,
+      "isFeatured": false,
+      "createdAt": "2024-09-08T13:15:42Z",
+      "updatedAt": "2024-10-11T10:20:15Z"
+    },
+    {
+      "id": "p007",
+      "name": "Premium Coffee Maker",
+      "description": "Brew barista-quality coffee at home with this premium coffee maker. Features programmable brewing, temperature control, built-in grinder, and thermal carafe to keep coffee hot for hours.",
       "price": 199.99,
-      "image": "https://via.placeholder.com/150",
-      "description": "Fitness tracking smartwatch with heart rate monitor"
+      "compareAtPrice": 249.99,
+      "currency": "USD",
+      "sku": "KT-COF-SST",
+      "categories": ["Kitchen", "Appliances", "Coffee Makers"],
+      "tags": ["coffee", "brewing", "kitchen", "automatic"],
+      "brand": "BrewMaster",
+      "rating": 4.6,
+      "reviewCount": 178,
+      "stock": 45,
+      "images": [
+        "/images/products/coffee-maker-front.jpg",
+        "/images/products/coffee-maker-side.jpg",
+        "/images/products/coffee-maker-carafe.jpg"
+      ],
+      "colors": ["Stainless Steel", "Black", "White"],
+      "features": [
+        "Built-in Conical Burr Grinder",
+        "Programmable 24-hour Timer",
+        "Adjustable Temperature Control",
+        "10-cup Thermal Carafe",
+        "Auto Shut-off",
+        "Permanent Gold-tone Filter"
+      ],
+      "specifications": {
+        "capacity": "10 cups",
+        "waterTankCapacity": "50 oz",
+        "beanHopperCapacity": "8 oz",
+        "brewingTime": "6-8 minutes (full carafe)",
+        "dimensions": "9.5\" x 9.5\" x 15.5\"",
+        "warranty": "2-year limited warranty"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isFeatured": true,
+      "createdAt": "2024-07-12T08:40:22Z",
+      "updatedAt": "2024-10-08T15:25:36Z"
     },
     {
-      "id": 3,
-      "name": "Cotton T-Shirt",
-      "category": "Clothing",
-      "price": 19.99,
-      "image": "https://via.placeholder.com/150",
-      "description": "Comfortable cotton t-shirt, available in multiple colors"
+      "id": "p008",
+      "name": "Wireless Charging Pad",
+      "description": "Charge your devices wirelessly with this sleek charging pad. Supports fast charging for compatible devices, with a non-slip surface and LED charging indicator.",
+      "price": 39.99,
+      "compareAtPrice": 49.99,
+      "currency": "USD",
+      "sku": "AC-WCP-BLK",
+      "categories": ["Electronics", "Accessories", "Chargers"],
+      "tags": ["wireless", "charging", "qi", "fast-charge"],
+      "brand": "PowerUp",
+      "rating": 4.5,
+      "reviewCount": 342,
+      "stock": 120,
+      "images": [
+        "/images/products/charger-top.jpg",
+        "/images/products/charger-side.jpg",
+        "/images/products/charger-with-phone.jpg"
+      ],
+      "colors": ["Black", "White", "Navy"],
+      "features": [
+        "Qi Wireless Charging",
+        "15W Fast Charging",
+        "Non-slip Surface",
+        "LED Charging Indicator",
+        "Slim Profile Design",
+        "Foreign Object Detection"
+      ],
+      "specifications": {
+        "inputPower": "QC 3.0 or PD adapter (not included)",
+        "outputPower": "15W max (device dependent)",
+        "compatibility": "All Qi-enabled devices",
+        "dimensions": "4\" diameter, 0.5\" height",
+        "cableLegth": "5ft USB-C cable included"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isFeatured": false,
+      "createdAt": "2024-09-25T10:15:36Z",
+      "updatedAt": "2024-10-14T11:22:18Z"
     },
     {
-      "id": 4,
-      "name": "Coffee Maker",
-      "category": "Home",
+      "id": "p009",
+      "name": "Portable Bluetooth Speaker",
+      "description": "Take your music anywhere with this rugged, waterproof portable speaker. Delivers rich, powerful sound with 24 hours of battery life and a built-in power bank to charge your devices.",
+      "price": 129.99,
+      "compareAtPrice": 149.99,
+      "currency": "USD",
+      "sku": "AU-BTS-BLK",
+      "categories": ["Electronics", "Audio", "Speakers"],
+      "tags": ["bluetooth", "portable", "waterproof", "outdoor"],
+      "brand": "SoundMaster",
+      "rating": 4.7,
+      "reviewCount": 267,
+      "stock": 52,
+      "images": [
+        "/images/products/speaker-front.jpg",
+        "/images/products/speaker-side.jpg",
+        "/images/products/speaker-outdoor.jpg"
+      ],
+      "colors": ["Black", "Blue", "Red", "Camo"],
+      "features": [
+        "360° Immersive Sound",
+        "IPX7 Waterproof",
+        "24-hour Battery Life",
+        "Built-in 6000mAh Power Bank",
+        "Bluetooth 5.1",
+        "Carabiner Included"
+      ],
+      "specifications": {
+        "outputPower": "30W",
+        "batteryCapacity": "6000mAh",
+        "playbackTime": "Up to 24 hours (at 50% volume)",
+        "chargingTime": "4 hours",
+        "bluetoothRange": "Up to 100 feet",
+        "dimensions": "8.5\" x 3.5\" x 3.5\"",
+        "weight": "1.8 lbs"
+      },
+      "inStock": true,
+      "isNew": true,
+      "isFeatured": false,
+      "createdAt": "2024-09-18T14:25:12Z",
+      "updatedAt": "2024-10-10T09:35:47Z"
+    },
+    {
+      "id": "p010",
+      "name": "Aromatherapy Essential Oil Diffuser",
+      "description": "Transform your space with this elegant essential oil diffuser. Features whisper-quiet operation, 7 color-changing LED lights, and automatic shut-off for safety.",
       "price": 49.99,
-      "image": "https://via.placeholder.com/150",
-      "description": "Programmable coffee maker with timer"
+      "compareAtPrice": 59.99,
+      "currency": "USD",
+      "sku": "HM-DIF-WD",
+      "categories": ["Home", "Wellness", "Aromatherapy"],
+      "tags": ["essential-oil", "diffuser", "aromatherapy", "humidifier"],
+      "brand": "ZenLife",
+      "rating": 4.6,
+      "reviewCount": 198,
+      "stock": 75,
+      "images": [
+        "/images/products/diffuser-wood.jpg",
+        "/images/products/diffuser-mist.jpg",
+        "/images/products/diffuser-light.jpg"
+      ],
+      "colors": ["Wood Grain", "White", "Black"],
+      "features": [
+        "300ml Water Capacity",
+        "Up to 10 Hours Run Time",
+        "7 Color-changing LED Lights",
+        "Whisper-quiet Ultrasonic Operation",
+        "Auto Shut-off When Empty",
+        "2 Mist Modes (Continuous/Intermittent)"
+      ],
+      "specifications": {
+        "capacity": "300ml",
+        "runTime": "10 hours (intermittent mode), 6 hours (continuous mode)",
+        "coverage": "Up to 400 sq. ft.",
+        "powerSource": "AC adapter (included)",
+        "dimensions": "6.5\" diameter x 6\" height"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isFeatured": false,
+      "createdAt": "2024-08-30T11:45:22Z",
+      "updatedAt": "2024-10-12T08:15:36Z"
     },
     {
-      "id": 5,
-      "name": "Yoga Mat",
-      "category": "Fitness",
-      "price": 29.99,
-      "image": "https://via.placeholder.com/150",
-      "description": "Non-slip yoga mat, ideal for home workouts"
+      "id": "p011",
+      "name": "Smart LED Light Bulbs (4-Pack)",
+      "description": "Upgrade your home lighting with these smart LED bulbs. Control brightness and color with your voice or smartphone, set schedules, and create scenes for any mood or occasion.",
+      "price": 59.99,
+      "compareAtPrice": 79.99,
+      "currency": "USD",
+      "sku": "SH-LB4-RGB",
+      "categories": ["Smart Home", "Lighting", "Electronics"],
+      "tags": ["smart-lighting", "led", "voice-control", "energy-efficient"],
+      "brand": "IllumiTech",
+      "rating": 4.5,
+      "reviewCount": 223,
+      "stock": 96,
+      "images": [
+        "/images/products/bulb-pack.jpg",
+        "/images/products/bulb-single.jpg",
+        "/images/products/bulb-lit.jpg"
+      ],
+      "colors": ["White"],
+      "features": [
+        "16 Million Colors + White",
+        "Voice Control Compatible",
+        "Smartphone App Control",
+        "Schedule & Scenes",
+        "Energy Efficient (9W)",
+        "No Hub Required"
+      ],
+      "specifications": {
+        "wattage": "9W (60W equivalent)",
+        "brightness": "800 lumens",
+        "colorTemperature": "2700K-6500K",
+        "compatibility": "Alexa, Google Assistant, HomeKit",
+        "lifespan": "25,000 hours",
+        "connectivity": "Wi-Fi 2.4GHz"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isFeatured": false,
+      "createdAt": "2024-09-05T16:30:12Z",
+      "updatedAt": "2024-10-13T08:45:27Z"
+    },
+    {
+      "id": "p012",
+      "name": "Digital Drawing Tablet",
+      "description": "Express your creativity with this professional-grade drawing tablet. Features a pressure-sensitive pen, customizable shortcut keys, and tilt recognition for natural drawing experience.",
+      "price": 249.99,
+      "compareAtPrice": 299.99,
+      "currency": "USD",
+      "sku": "AR-DRW-PRO",
+      "categories": ["Electronics", "Art & Design", "Tablets"],
+      "tags": ["digital-art", "drawing", "creative", "professional"],
+      "brand": "ArtistPro",
+      "rating": 4.8,
+      "reviewCount": 142,
+      "stock": 24,
+      "images": [
+        "/images/products/tablet-top.jpg",
+        "/images/products/tablet-angle.jpg",
+        "/images/products/tablet-with-pen.jpg"
+      ],
+      "colors": ["Black", "Gray"],
+      "features": [
+        "8192 Pressure Levels",
+        "Tilt Recognition",
+        "10 Customizable Shortcut Keys",
+        "Battery-free Pen",
+        "USB-C Connection",
+        "Compatible with All Major Design Software"
+      ],
+      "specifications": {
+        "activeArea": "10\" x 6.25\"",
+        "resolution": "5080 LPI",
+        "pressureLevels": "8192",
+        "tiltRecognition": "±60°",
+        "connectivity": "USB-C",
+        "compatibility": "Windows 7+, macOS 10.12+"
+      },
+      "inStock": true,
+      "isNew": true,
+      "isFeatured": false,
+      "createdAt": "2024-09-02T09:20:14Z",
+      "updatedAt": "2024-10-09T13:15:48Z"
+    },
+    {
+      "id": "p013",
+      "name": "Premium Yoga Mat",
+      "description": "Enhance your yoga practice with this premium, eco-friendly yoga mat. Features superior grip, extra cushioning for joint support, and an antimicrobial surface to prevent odors.",
+      "price": 79.99,
+      "compareAtPrice": 99.99,
+      "currency": "USD",
+      "sku": "FT-YOG-MAT",
+      "categories": ["Fitness", "Yoga", "Wellness"],
+      "tags": ["yoga", "exercise", "eco-friendly", "non-slip"],
+      "brand": "ZenFlex",
+      "rating": 4.7,
+      "reviewCount": 215,
+      "stock": 58,
+      "images": [
+        "/images/products/yoga-mat-flat.jpg",
+        "/images/products/yoga-mat-rolled.jpg",
+        "/images/products/yoga-mat-in-use.jpg"
+      ],
+      "colors": ["Blue", "Purple", "Gray", "Green"],
+      "features": [
+        "Natural Rubber Base",
+        "PU Top Layer with Superior Grip",
+        "6mm Thickness for Joint Support",
+        "Antimicrobial Surface",
+        "Alignment Markers",
+        "Includes Carrying Strap"
+      ],
+      "specifications": {
+        "dimensions": "72\" x 26\" x 6mm",
+        "weight": "4.5 lbs",
+        "material": "Natural rubber & polyurethane",
+        "careInstructions": "Wipe clean with damp cloth and mild soap",
+        "warranty": "Lifetime warranty"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isFeatured": false,
+      "createdAt": "2024-08-10T12:35:45Z",
+      "updatedAt": "2024-10-11T09:10:22Z"
+    },
+    {
+      "id": "p014",
+      "name": "Smart Indoor Garden",
+      "description": "Grow fresh herbs and vegetables year-round with this smart indoor garden. Features automated LED grow lights, self-watering system, and plant pods with non-GMO seeds.",
+      "price": 149.99,
+      "compareAtPrice": 179.99,
+      "currency": "USD",
+      "sku": "HG-GRD-SMT",
+      "categories": ["Home", "Kitchen", "Smart Home"],
+      "tags": ["garden", "herbs", "smart-home", "indoor-gardening", "hydroponic"],
+      "brand": "GreenThumb",
+      "rating": 4.6,
+      "reviewCount": 192,
+      "stock": 43,
+      "images": [
+        "/images/products/garden-empty.jpg",
+        "/images/products/garden-with-plants.jpg",
+        "/images/products/garden-in-kitchen.jpg"
+      ],
+      "colors": ["White", "Black"],
+      "features": [
+        "LED Grow Lights",
+        "Self-Watering System",
+        "6 Plant Pod Capacity",
+        "Mobile App Control",
+        "Plant Food Included",
+        "Low Energy Consumption"
+      ],
+      "specifications": {
+        "dimensions": "16\" x 10\" x 18\"",
+        "capacity": "6 plants",
+        "waterTankCapacity": "1.2 gallons",
+        "lightCycle": "16 hours on, 8 hours off",
+        "power": "20W",
+        "connectivity": "Wi-Fi"
+      },
+      "inStock": true,
+      "isNew": true,
+      "isFeatured": true,
+      "createdAt": "2024-09-10T15:40:26Z",
+      "updatedAt": "2024-10-12T10:20:38Z"
+    },
+    {
+      "id": "p015",
+      "name": "Gourmet Cast Iron Skillet",
+      "description": "Cook like a professional chef with this pre-seasoned cast iron skillet. Perfect for searing, baking, broiling, and more, with excellent heat retention and even cooking.",
+      "price": 49.99,
+      "compareAtPrice": 69.99,
+      "currency": "USD",
+      "sku": "KC-CIS-12IN",
+      "categories": ["Kitchen", "Cookware", "Home"],
+      "tags": ["cast-iron", "cooking", "skillet", "pre-seasoned"],
+      "brand": "ChefCraft",
+      "rating": 4.9,
+      "reviewCount": 312,
+      "stock": 87,
+      "images": [
+        "/images/products/skillet-top.jpg",
+        "/images/products/skillet-angle.jpg",
+        "/images/products/skillet-with-food.jpg"
+      ],
+      "colors": ["Black"],
+      "features": [
+        "12-inch Diameter",
+        "Pre-seasoned with Vegetable Oil",
+        "Dual Pour Spouts",
+        "Helper Handle",
+        "Oven Safe to 500°F",
+        "Works on All Cooking Surfaces"
+      ],
+      "specifications": {
+        "diameter": "12 inches",
+        "weight": "8 lbs",
+        "material": "Cast iron",
+        "origin": "Hand-crafted in USA",
+        "warranty": "Lifetime warranty",
+        "careInstructions": "Hand wash, dry immediately, rub with cooking oil"
+      },
+      "inStock": true,
+      "isNew": false,
+      "isFeatured": false,
+      "createdAt": "2024-07-22T09:30:42Z",
+      "updatedAt": "2024-10-08T14:20:15Z"
+    },
+    {
+      "id": "p016",
+      "name": "Smart Robot Vacuum Cleaner",
+      "description": "Keep your floors clean with minimal effort using this smart robot vacuum. Features advanced mapping, powerful suction, and app control to clean your home on your schedule.",
+      "price": 349.99,
+      "compareAtPrice": 399.99,
+      "currency": "USD",
+      "sku": "HK-ROB-VAC",
+      "categories": ["Home", "Appliances", "Smart Home"],
+      "tags": ["robot", "vacuum", "cleaning", "smart-home"],
+      "brand": "CleanTech",
+      "rating": 4.7,
+      "reviewCount": 254,
+      "stock": 32,
+      "images": [
+        "/images/products/vacuum-top.jpg",
+        "/images/products/vacuum-side.jpg",
+        "/images/products/vacuum-app.jpg"
+      ],
+      "colors": ["White", "Black"],
+      "features": [
+        "2500Pa Suction Power",
+        "LiDAR Mapping Technology",
+        "150-minute Runtime",
+        "Auto Dock & Recharge",
+        "App & Voice Control",
+        "Multi-floor Mapping"
+      ],
+      "specifications": {
+        "dimensions": "13.5\" diameter x 3.5\" height",
+        "weight": "7.5 lbs",
+        "batteryCapacity": "5200mAh",
+        "runtime": "Up to 150 minutes",
+        "noiseLevel": "65dB on max power",
+        "connectivity": "Wi-Fi, Bluetooth"
+      },
+      "inStock": true,
+      "isNew": true,
+      "isFeatured": true,
+      "createdAt": "2024-09-15T10:25:36Z",
+      "updatedAt": "2024-10-13T15:40:22Z"
     }
   ]
+}
