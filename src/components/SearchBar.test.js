@@ -3,7 +3,8 @@ import SearchBar from './SearchBar';
 
 test('renders search input', () => {
   render(<SearchBar onSearch={() => {}} />);
-  const inputElement = screen.getByTestId('search-input');
+  // Use queryByPlaceholderText instead of getByTestId
+  const inputElement = screen.getByPlaceholderText('Search products...');
   expect(inputElement).toBeInTheDocument();
 });
 
@@ -11,10 +12,12 @@ test('calls onSearch when form is submitted', () => {
   const mockOnSearch = jest.fn();
   render(<SearchBar onSearch={mockOnSearch} />);
   
-  const inputElement = screen.getByTestId('search-input');
+  // Use queryByPlaceholderText instead of getByTestId
+  const inputElement = screen.getByPlaceholderText('Search products...');
   fireEvent.change(inputElement, { target: { value: 'headphones' } });
   
-  const formElement = screen.getByTestId('search-form');
+  // Use the form element directly rather than with data-testid
+  const formElement = screen.getByRole('form');
   fireEvent.submit(formElement);
   
   expect(mockOnSearch).toHaveBeenCalledWith('headphones');

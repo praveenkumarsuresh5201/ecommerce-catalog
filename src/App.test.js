@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders Product Catalog heading', () => {
+test('renders main heading', () => {
   render(<App />);
-  const headingElement = screen.getByText(/Product Catalog/i);
+  const headingElement = screen.getByText(/Discover Premium Products/i);
   expect(headingElement).toBeInTheDocument();
 });
